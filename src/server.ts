@@ -71,7 +71,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
     }
     else
     {      
-      res.status(200).send("Provide valide image_url.");
+      res.status(404).send("Provide valide image_url.");
     }
   });
   
